@@ -5,7 +5,7 @@ const   express = require ('express'),
         mongoose = require('mongoose'),
         indexController = require ('./controllers/index.js'),
         flash = require('connect-flash'),
-        port = process.env.PORT || 8080;
+        port = process.env.PORT;
 
 // Setting the template engine
 app.set("view engine", "ejs");
