@@ -1,0 +1,34 @@
+{
+  "name": "mamahh",
+  "version": "1.0.0",
+  "description": "A app for buying soup nd reducing cooking stress",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WonderfulOlanrewaju/mamahh.git"
+  },
+  "keywords": [
+    "soup",
+    "stew",
+    "sauce"
+  ],
+  "author": "Olanrewaju A. Olaboye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WonderfulOlanrewaju/mamahh/issues"
+  },
+  "homepage": "https://github.com/WonderfulOlanrewaju/mamahh#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "dotenv": "^7.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.4",
+    "nodemailer": "^6.1.1",
+    "nodemon": "^1.18.11"
+  }
+}
